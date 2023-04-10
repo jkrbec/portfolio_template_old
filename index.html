@@ -1,6 +1,6 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,16 +11,19 @@
     <link rel="stylesheet" href="css/skins/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <!-- Style Switcher  -->
-    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1">
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" >
     <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
     <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
     <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
     <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
-    <link rel="stylesheet" href="css/skins/color-6.css" class="alternate-style" title="color-6" disabled>
+    <link rel="stylesheet" href="css/skins/color-6.css" class="alternate-style" title="color-6" disabled >
     <link rel="stylesheet" href="css/style-switcher.css">
-</head>
+    
 
+</head>
 <body>
+
+    
 
     <div class="main-container">
         <!-- sidebar -->
@@ -33,9 +36,10 @@
             </div>
             <ul class="nav">
                 <li> <a href="#home" class="active"><i class="fa fa-home"> </i>Home</a> </li>
+                <li> <a href="#portfolio"><i class="fa fa-briefcase"> </i>Portfolio</a> </li>
                 <li> <a href="#about"><i class="fa fa-user"> </i>About</a> </li>
                 <li> <a href="#services"><i class="fa fa-list"> </i>Services</a> </li>
-                <li> <a href="#portfolio"><i class="fa fa-briefcase"> </i>Portfolio</a> </li>
+                
                 <li> <a href="#contact"><i class="fa fa-comments"> </i>Contact</a> </li>
             </ul>
 
@@ -45,54 +49,183 @@
         <div class="main-content">
             <!-- Home Section Start -->
             <section class="home section" id="home">
+              <div class="container">
+                <div class="row">
+                    <div class="home-info padd-15">
+                        <h3 class="hello">Hello, my name is <span class="name"> Jaroslav Krbec </span></h3>
+                        <h3 class="my-profession">I'm a <span class="typing">developer in training</span> </h3>
+                        <p>
+                            I'm a <strong>versatile professional</strong> with a passion for 
+                            <strong>education, IT</strong> and personal development. 
+                            I love learning and 
+                            embracing new challenges. My working attitude has 
+                            fueled my growth in IT, while my role as a certified fitness 
+                            instructor and hobby sportsman reflects my commitment to 
+                            <strong>physical and mental well-being</strong>. As a proud 
+                            father of two and a dog person, family always comes first!                  
+                        </p>
+                        <a href="#contact" class="btn hire-me">Hire Me</a>
+                    </div>
+                    <div class="home-img padd-15">
+                        <img src="images/jk3.jpg" alt="">
+                    </div>
+                </div>
+              </div>  
+            </section>
+            <!-- Home Section End  -->
+             <!-- Portfolio Section Start -->
+             <section class="portfolio section" id="portfolio">
                 <div class="container">
                     <div class="row">
-                        <div class="home-info padd-15">
-                            <h3 class="hello">Hello there! My name is <span class="name"> Jaroslav Krbec </span></h3>
-                            <h3 class="my-profession">I'm <span class="typing">teacher</span> </h3>
-                            <p>As someone with extensive experience leading and teaching various age groups,
-                                I'm passionate about education and learning new stuff. With background in linguistics,
-                                I'm expanding my knowledge in IT and constantly seeking out new challenges.
-
-
-                                I'm also focusing on developing my own concept of physical
-                                and mental fitness.
-                                As a certified fitness instructor and hobby sportsman, I enjoy exploring different ways
-                                to stay
-                                healthy and active.
-                                And as a proud father of (soon-to-be) two and a dog person, family time is always a top
-                                priority for me!
-
-                            </p>
-                            <a href="https://www.linkedin.com/in/jaroslavkrbec/" class="btn hire-me">Hire Me</a>
+                        <div class="section-title pad-15">
+                            <h2>Portfolio</h2>
                         </div>
-                        <div class="home-img padd-15">
-                            <img src="images/jk3.jpg" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My recent projects :</h2>
                         </div>
+                    </div>
+                    <div class="row">
+                        <!-- portfolio item start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio_template.png" alt="A picture of portfolio template">
+                                </div>
+                                <div class="portfolio-text">
+                                    <h3>Responsive Web Portfolio Template 🚀</h3>
+                                    <p>A custom-made template for showcasing your portfolio. 
+                                        Built for those strong with the force, using HTML, CSS and 
+                                        JS.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end -->
+                        <!-- portfolio item start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/django_blog.png" alt="A picture of portfolio template">
+                                </div>
+                                <div class="portfolio-text">
+                                    <h3>Django Blog 📝</h3>
+                                    <p>A clean and sleek blog featuring user registration, administration, and pagination. 
+                                        Built using Django and Bootstrap to provide a 
+                                        seamless experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end -->
+                        <!-- portfolio item start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/wizarding_world_app.png" alt="A picture of portfolio template">
+                                </div>
+                                <div class="portfolio-text">
+                                    <h3>Wizarding World App 🧙</h3>
+                                    <p>My very first React app that fetches character information from an API 
+                                        and displays it in a magically designed card. 
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end -->
+                        <!-- portfolio item start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/li_platf.png" alt="A picture of portfolio template">
+                                </div>
+                                <div class="portfolio-text">
+                                    <h3>Platformer 🕹️</h3>
+                                    <p>Embark on a journey through this Pygame adventure. 
+                                        A basic game template that can be extended according to the developer's needs. 
+                                        Perfect for exploring the world of Pygame.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end -->
+                        <!-- portfolio item start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/ufc_data_story.png" alt="A picture of portfolio template">
+                                </div>
+                                <div class="portfolio-text">
+                                    <h3>UFC Evolution: A Data Story Highlights 🥊</h3>
+                                    <p>Evolution of UFC over 27 years through in-depth analysis 
+                                        using Excel, pandas and matplotlib. 
+                                        Discover insights into the sport's progression.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end -->
+                        <!-- portfolio item start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/ufc_streamlit.png" alt="A picture of portfolio template">
+                                </div>
+                                <div class="portfolio-text">
+                                    <h3>Referees' stats Streamlit App 📊</h3>
+                                    <p>Explore the statistics of duel finishes for the 
+                                        top 10 most frequent referees in UFC. 
+                                        Built using Streamlit, pandas and plotly.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end -->
+                        <!-- portfolio item start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/covid.png" alt="A picture of portfolio template">
+                                </div>
+                                <div class="portfolio-text">
+                                    <h3>Covid Data Dashboard 🌍</h3>
+                                    <p> An analysis of Covid-19 data. Data 
+                                        handling with MS Excel, SQL queries in 
+                                        MS SQL Server Management Studio.
+                                        Visualization using Tableau to deliver 
+                                        perspectives on the virus's 
+                                        evolution.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end -->
+                        <!-- Add more portfolio items following the same structure -->
                     </div>
                 </div>
             </section>
-            <!-- Home Section End  -->
+            <!-- Portfolio Section End -->
             <!-- About Section Start  -->
             <section class="about section" id="about">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
-                            <h2>About</h2>
+                            <h2>About Me</h2>
                         </div>
                     </div>
                     <div class="row">
                         <div class="about-content padd-15">
-                            <div class="row">
-                                <div class="about-text padd-15">
-                                    <h3>I'm Pán Všech Moří and <span>Developer</span></h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Aut commodi aspernatur, laborum earum nihil necessitatibus
-                                        minima quaerat! Quibusdam itaque magnam provident cumque officiis,
-                                        sapiente a, minima dolorum cupiditate error iure.</p>
-                                </div>
-                            </div>
-                            <div class="row">
+                    <div class="row">
+                        <div class="about-text padd-15">
+                            <h3>I'm Teacher, Trainer and <span>Developer in Training</span></h3>
+                                    <p> 
+                                        Despite my academic foundations, I am mostly a self-taught career-switcher
+                                        with my own unique path. My expertise encompasses years of teaching
+                                        at various levels, a growing command of the IT industry, and a commitment
+                                        to physical and mental well-being, supported by certifications and engagement
+                                        in related activities. Together, these elements shape my distinctive path to 
+                                        personal and professional development. Reach out and let's work together, 
+                                        leveraging this array of skills for mutual growth and success.
+                                    </p>
+                        </div>
+                    </div>
+                    <div class="row">
                                 <div class="personal-info padd-15">
                                     <div class="row">
                                         <div class="info-item padd-15">
@@ -102,7 +235,7 @@
                                             <p>Age : <span>32</span></p>
                                         </div>
                                         <div class="info-item padd-15">
-                                            <p>Website : <span>krbec.github.io/portfolio/</span></p>
+                                            <p>Website : <a href="krbec.github.io/portfolio"><span>Here and Now</span></a></p>
                                         </div>
                                         <div class="info-item padd-15">
                                             <p>Email : <span>jaroslavkrbec@gmail.com</span></p>
@@ -118,11 +251,13 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="buttons padd-15">
-                                            <a href="https://github.com/jkrbec/cv/blob/main/krbec_cv.pdf"
-                                                target="_blank" class="btn">Download CV</a>
-                                            <a href="https://www.linkedin.com/in/jaroslavkrbec/" target="_blank"
-                                                class="btn hire-me">Hire Me</a>
+                                        <div class="row">
+                                            <div class="buttons padd-15">
+                                                <a href="https://github.com/jkrbec/cv/blob/main/krbec_cv.pdf"
+                                                    target="_blank" class="btn">Download CV</a>
+                                                <a href="https://www.linkedin.com/in/jaroslavkrbec/" target="_blank"
+                                                    class="btn hire-me">Hire Me</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -185,7 +320,7 @@
                                                         Berkeley, the University of Lausanne, and the
                                                         University of Novi Sad on interdisciplinary topics including
                                                         linguistics, IT, philosophy of science, and biology.
-                                                        I also gained valuable experience as a teacher, leading several
+                                                        I also gained experience as a teacher, leading several
                                                         classes.
 
                                                     </p>
@@ -197,7 +332,7 @@
                                                         <i class="fa fa-calendar"></i> 2014 - 2016
                                                     </h3>
                                                     <h4 class="timeline-title">Master's in General Linguistics</h4>
-                                                    <p class="timeline-text">During my studies, I participated in
+                                                    <p class="timeline-text">I participated in
                                                         interdisciplinary research projects
                                                         in the fields of linguistics, IT, and biology, which broadened
                                                         my understanding of the complexities
@@ -218,20 +353,17 @@
                                                         <i class="fa fa-calendar"></i> 2011 - 2014
                                                     </h3>
                                                     <h4 class="timeline-title">Bachelor's in Journalism</h4>
-                                                    <p class="timeline-text">During my studies, I focused on developing
+                                                    <p class="timeline-text">I focused on developing
                                                         my skills in various forms of journalism,
                                                         including sports and science reporting. My thesis, titled
                                                         "Language Expressivity in Česká televize and
                                                         TV Nova Broadcasting," examined the use of language and its
                                                         expressive potential in the news coverage of
                                                         two major Czech television stations. Through my coursework and
-                                                        practical experience in the field,
+                                                        practical experience,
                                                         I honed my abilities to write clearly and concisely, conduct
                                                         research and interviews, and tell compelling
-                                                        stories through different mediums. Overall, my education in
-                                                        journalism has equipped me
-                                                        with the necessary tools to be a thoughtful and effective
-                                                        communicator in a rapidly evolving media landscape.</p>
+                                                        stories through different media.</p>
                                                 </div>
                                                 <!-- === timeline item  -->
                                             </div>
@@ -251,9 +383,9 @@
                                                     </h3>
                                                     <h4 class="timeline-title">Intensive programming course in Python
                                                     </h4>
-                                                    <p class="timeline-text">an intensive programming course in Python,
+                                                    <p class="timeline-text">A programming course,
                                                         which covered the fundamentals of
-                                                        the programming language and its applications in various fields.
+                                                        Python and its applications in various fields.
                                                         I gained practical
                                                         experience in writing Python code,
                                                         as well as an understanding of key concepts such as data
@@ -266,7 +398,7 @@
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i>2022 - 2023
                                                     </h3>
-                                                    <h4 class="timeline-title">Intensive programming course in SQL</h4>
+                                                    <h4 class="timeline-title">Intensive course focused SQL</h4>
                                                     <p class="timeline-text">I gained practical experience in writing
                                                         SQL queries,
                                                         as well as an understanding of key concepts such as data
@@ -334,6 +466,7 @@
             </section>
 
             <!-- About Section End  -->
+
             <!-- Services Section Start -->
             <section class="service section hidden" id="services">
                 <div class="container">
@@ -350,7 +483,7 @@
                                     <i class="fa fa-mobile-alt"></i>
                                 </div>
                                 <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                     Officia pariatur et modi.</p>
                             </div>
                         </div>
@@ -363,7 +496,7 @@
                                     <i class="fa fa-laptop-code"></i>
                                 </div>
                                 <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                     Officia pariatur et modi.</p>
                             </div>
                         </div>
@@ -376,7 +509,7 @@
                                     <i class="fa fa-palette"></i>
                                 </div>
                                 <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                     Officia pariatur et modi.</p>
                             </div>
                         </div>
@@ -389,7 +522,7 @@
                                     <i class="fa fa-code"></i>
                                 </div>
                                 <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                     Officia pariatur et modi.</p>
                             </div>
                         </div>
@@ -402,7 +535,7 @@
                                     <i class="fa fa-search"></i>
                                 </div>
                                 <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                     Officia pariatur et modi.</p>
                             </div>
                         </div>
@@ -415,7 +548,7 @@
                                     <i class="fa fa-bullhorn"></i>
                                 </div>
                                 <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                     Officia pariatur et modi.</p>
                             </div>
                         </div>
@@ -425,163 +558,8 @@
                 </div>
             </section>
             <!-- Services Section End -->
-            <!-- Portfolio Section Start -->
-            <section class="portfolio section" id="portfolio">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title pad-15">
-                            <h2>Portfolio</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="portfolio-heading padd-15">
-                            <h2>My recent projects :</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="images/portfolio_template.png" alt="A picture of portfolio template">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a href="https://github.com/jkrbec/react-wizarding-world-app">
-                                        <img src="images/wizarding_world_app.png"
-                                            alt="A picture of wizarding world app">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a href="https://github.com/jkrbec/portfolio_projects">
-                                        <img src="images/covid.png" alt="Covid Data Analysis Banner">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a
-                                        href="https://www.linkedin.com/pulse/ufc-evolution-data-story-highlights-jaroslav-krbec/">
-                                        <img src="images/ufc_data_story.png" alt="UFC Data Story Banner">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a href="https://github.com/jkrbec/portfolio_projects/blob/main/app.py">
-                                        <img src="images/ufc_streamlit.png" alt="Streamlit App Banner">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="images/jk.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                    </div>
-                </div>
-                <div class="container hidden">
-                    <div class="row">
-                        <div class="portfolio-heading padd-15">
-                            <h2>Works and projects created under my supervision :</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="images/portfolio_template.png" alt="A picture of portfolio template">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a href="https://github.com/jkrbec/react-wizarding-world-app">
-                                        <img src="images/wizarding_world_app.png"
-                                            alt="A picture of wizarding world app">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a href="https://github.com/jkrbec/portfolio_projects">
-                                        <img src="images/covid.png" alt="Covid Data Analysis Banner">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a
-                                        href="https://www.linkedin.com/pulse/ufc-evolution-data-story-highlights-jaroslav-krbec/">
-                                        <img src="images/ufc_data_story.png" alt="UFC Data Story Banner">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <a href="https://github.com/jkrbec/portfolio_projects/blob/main/app.py">
-                                        <img src="images/ufc_streamlit.png" alt="Streamlit App Banner">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item start -->
-                        <div class="portfolio-item padd-15">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="images/jk.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                    </div>
-                </div>
-            </section>
+           
 
-
-            <!-- Portfolio Section End -->
             <!-- Contact Section Start -->
             <section class="contact section" id="contact">
                 <div class="container">
@@ -631,6 +609,8 @@
             </section>
             <!-- Contact Section End -->
 
+
+
         </div>
         <!-- Main Content End -->
 
@@ -651,16 +631,17 @@
             <span class="color-3" onclick="setActiveStyle('color-3')"></span>
             <span class="color-4" onclick="setActiveStyle('color-4')"></span>
             <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-            <span class="color-6 hidden" onclick="setActiveStyle('color-6')"></span>
-
+            <!-- <span class="color-6" onclick="setActiveStyle('color-6')"></span> -->
+            
         </div>
     </div>
     <!-- Style Switcher End  -->
     <!-- JS Files  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-        referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
     <script src="js/style-switcher.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
-
 </html>
